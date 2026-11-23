@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+coverage/
+
+# Environment files (secrets); only the example is versioned
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
